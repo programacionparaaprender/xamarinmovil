@@ -1,0 +1,3 @@
+﻿
+agregado a los tres proyectos Estandar, Android, IOS
+sqlite-net-pcl

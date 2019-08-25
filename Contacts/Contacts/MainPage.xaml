@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Contacts.MainPage">
+  <ContentPage.Content>
+    <StackLayout>
+      <Entry />
+      <StackLayout Margin="20,20,20,0">
+        <Entry Placeholder="Name" x:Name="nameEntry" />
+        <Entry Placeholder="Lastname" x:Name="lastNameEntry" />
+        <Entry Placeholder="Email" x:Name="eamilEntry" />
+        <Entry Placeholder="Phone number" x:Name="phoneEntry" />
+        <Entry Placeholder="Address" x:Name="addressEntry" />
+        <Button Text="save" x:Name="btnSave" Clicked="GuardarDatos" />
+      </StackLayout>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
