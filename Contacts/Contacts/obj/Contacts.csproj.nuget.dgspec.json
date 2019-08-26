@@ -59,7 +59,7 @@
             },
             "sqlite-net-pcl": {
               "target": "Package",
-              "version": "[1.5.231, )"
+              "version": "[1.4.118, )"
             }
           },
           "imports": [
