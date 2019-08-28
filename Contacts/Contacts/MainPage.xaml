@@ -14,7 +14,7 @@
         <Entry Placeholder="Email" x:Name="eamilEntry" />
         <Entry Placeholder="Phone number" x:Name="phoneEntry" />
         <Entry Placeholder="Address" x:Name="addressEntry" />
-        <Button Text="save" x:Name="btnSave" Clicked="GuardarDatos" />
+        <Button Text="save" x:Name="btnSave" Clicked="BtnSave_Clicked" />
       </StackLayout>
     </StackLayout>
   </ContentPage.Content>

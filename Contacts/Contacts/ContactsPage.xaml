@@ -9,4 +9,16 @@
         <ToolbarItem Text="New" Clicked="ToolbarItem_Clicked"
                      />
     </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ListView x:Name="contactsListView" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}" 
+                              Detail="{Binding Email}"
+                              TextColor="Teal"
+                              DetailColor="Blue"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
 </ContentPage>

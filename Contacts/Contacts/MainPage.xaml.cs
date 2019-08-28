@@ -19,10 +19,15 @@ namespace Contacts
         public MainPage()
         {
             InitializeComponent();
-            this.btnSave.Clicked += GuardarDatos;
+            //this.btnSave.Clicked += GuardarDatos;
 
         }
         public void GuardarDatos(object sender, System.EventArgs e)
+        {
+            
+        }
+
+        private void BtnSave_Clicked(object sender, EventArgs e)
         {
             Contact contact = new Contact()
             {
