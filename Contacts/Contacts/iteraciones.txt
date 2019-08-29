@@ -3,3 +3,9 @@ https://www.udemy.com/course/xamarin-forms-free/learn/lecture/11824482#overview
 
 agregado a los tres proyectos Estandar, Android, IOS
 sqlite-net-pcl  1.4.118
+
+usar entorno de tiempo de ejecución compartido deshabilitarlo para poder dar en archivar en el proyecto
+android y generar el apk se encuentra en la casilla opciones de android
+
+Generar apk en Android
+https://www.youtube.com/watch?v=XWIyDarBs-c
