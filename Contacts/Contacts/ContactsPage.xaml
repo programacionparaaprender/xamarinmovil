@@ -8,9 +8,12 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="New" Clicked="ToolbarItem_Clicked"
                      />
+        <ToolbarItem Text="Juego" Clicked="ToolbarItem_Clicked_1"
+                     />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <ListView x:Name="contactsListView" >
+       
+            <ListView x:Name="contactsListView" >
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextCell Text="{Binding Name}" 

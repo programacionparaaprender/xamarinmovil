@@ -33,5 +33,10 @@ namespace Contacts
                 contactsListView.ItemsSource = contacts;
             }
         }
+
+        private void ToolbarItem_Clicked_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

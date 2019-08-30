@@ -37,11 +37,28 @@ namespace Contacts
                 PhoneNumber = phoneEntry.Text,
                 Address = addressEntry.Text
             };
+
+            using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
+            {
+                conn.CreateTable<Contact>();
+                var contacts = conn.Table<Contact>().ToList();
+                foreach(Contact temp in contacts)
+                {
+                    if (temp.Email == contact.Email)
+                    {
+                        return;
+                    }
+                }
+
+            }
+
             using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
             {
                 conn.CreateTable<Contact>();
                 int rowsAdded = conn.Insert(contact);
             }
+
+            Navigation.PushAsync(new ContactsPage());
         }
     }
 }

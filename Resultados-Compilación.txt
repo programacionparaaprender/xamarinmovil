@@ -1,0 +1,5 @@
+﻿1>------ Operación Recompilar todo iniciada: proyecto: Contacts, configuración: Debug Any CPU ------
+1>Contacts -> C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\Movil\Contacts\Contacts\Contacts\bin\Debug\netstandard2.0\Contacts.dll
+2>------ Operación Recompilar todo iniciada: proyecto: Contacts.Android, configuración: Debug Any CPU ------
+3>------ Operación Recompilar todo omitida: proyecto: Contacts.iOS, configuración: Debug iPhone ------
+3>Proyecto no seleccionado para compilarse para esta configuración de solución 

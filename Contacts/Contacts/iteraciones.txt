@@ -9,3 +9,17 @@ android y generar el apk se encuentra en la casilla opciones de android
 
 Generar apk en Android
 https://www.youtube.com/watch?v=XWIyDarBs-c
+
+C:\Program Files\Android\Jdk\microsoft_dist_openjdk_1.8.0.25
+
+
+C:\Users\LuisCorrea\AppData\Local\Android\Sdk
+
+crear graficos
+https://docs.microsoft.com/es-es/xamarin/xamarin-forms/user-interface/graphics/skiasharp/bitmaps/drawing
+
+
+generar archivo
+add hoc agregar firma
+
+

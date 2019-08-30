@@ -473,7 +473,6 @@ C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\Movil\Contacts\Contacts
 C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\Movil\Contacts\Contacts\Contacts.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\Movil\Contacts\Contacts\Contacts.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\Movil\Contacts\Contacts\Contacts.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\Movil\Contacts\Contacts\Contacts.Android\bin\Debug\Contacts.dll.mdb
 C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\Movil\Contacts\Contacts\Contacts.Android\obj\Debug\90\flata\ccee4dd8a4dbc1b5fb392391c9b382b3a511b8eb.stamp
 C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\Movil\Contacts\Contacts\Contacts.Android\obj\Debug\90\flata\37f3e21c805922060c07539891a587c49389354b.stamp
 C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\Movil\Contacts\Contacts\Contacts.Android\obj\Debug\90\flata\99f864e829d79cfebcd6c137e1dbe655a0d69647.stamp
@@ -532,3 +531,4 @@ C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\Movil\Contacts\Contacts
 C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\Movil\Contacts\Contacts\Contacts.Android\obj\Debug\90\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\Movil\Contacts\Contacts\Contacts.Android\obj\Debug\90\android\assets\System.Collections.Concurrent.dll
 C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\Movil\Contacts\Contacts\Contacts.Android\obj\Debug\90\android\assets\System.Globalization.dll
+C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\Movil\Contacts\Contacts\Contacts.Android\bin\Debug\Contacts.dll.mdb
