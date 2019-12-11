@@ -1,4 +1,18 @@
 ﻿
+
+
+https://www.udemy.com/course/como-criar-um-robo-de-pesquisa-no-xamarin-forms/learn/lecture/16681124#overview
+https://algorithmia.com/developers/clients/c_sharp_net
+
+
+
+
+-----------------------
+1. Instalando paquetes
+-----------------------
+Algorithmia.Client
+
+
 https://www.udemy.com/course/xamarin-forms-free/learn/lecture/11824482#overview
 
 agregado a los tres proyectos Estandar, Android, IOS

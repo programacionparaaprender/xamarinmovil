@@ -2,35 +2,25 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v9.0": {
-      "SkiaSharp/1.68.0": {
+      "Algorithmia.Client/1.0.5": {
         "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
         "compile": {
-          "lib/MonoAndroid/SkiaSharp.dll": {}
+          "lib/netstandard2.0/Algorithmia.dll": {}
         },
         "runtime": {
-          "lib/MonoAndroid/SkiaSharp.dll": {}
+          "lib/netstandard2.0/Algorithmia.dll": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         },
-        "runtimeTargets": {
-          "runtimes/osx/native/libSkiaSharp.dylib": {
-            "assetType": "native",
-            "rid": "osx"
-          },
-          "runtimes/tizen-armel/native/libSkiaSharp.so": {
-            "assetType": "native",
-            "rid": "tizen-armel"
-          },
-          "runtimes/tizen-x86/native/libSkiaSharp.so": {
-            "assetType": "native",
-            "rid": "tizen-x86"
-          },
-          "runtimes/win-x64/native/libSkiaSharp.dll": {
-            "assetType": "native",
-            "rid": "win-x64"
-          },
-          "runtimes/win-x86/native/libSkiaSharp.dll": {
-            "assetType": "native",
-            "rid": "win-x86"
-          }
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "sqlite-net-pcl/1.4.118": {
@@ -933,7 +923,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "SkiaSharp": "1.68.0",
+          "Algorithmia.Client": "1.0.5",
           "Xamarin.Essentials": "1.1.0",
           "Xamarin.Forms": "4.1.0.555618",
           "sqlite-net-pcl": "1.4.118"
@@ -948,52 +938,47 @@
     }
   },
   "libraries": {
-    "SkiaSharp/1.68.0": {
-      "sha512": "ptuxAKk9FiClNnAgWM8hVMCYw/B0hUJWZ8W6efnIAtJmJn/Xl4jvxxDF5WOqfQYCLVzxXw5gvBPVxvTLblFp0g==",
+    "Algorithmia.Client/1.0.5": {
+      "sha512": "YvZWrcOc6ibeeg7e7REl6lb5XY1RDYKYMZpjLd7mb/qlMgzq5UXc8vCzTxx0C1wXvjZ2vLEMnGiW3l0UrsbnCg==",
       "type": "package",
-      "path": "skiasharp/1.68.0",
+      "path": "algorithmia.client/1.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.txt",
-        "THIRD-PARTY-NOTICES.txt",
-        "build/net45/SkiaSharp.targets",
-        "build/tizen40/SkiaSharp.targets",
-        "lib/MonoAndroid/SkiaSharp.dll",
-        "lib/MonoAndroid/SkiaSharp.xml",
-        "lib/Xamarin.Mac20/SkiaSharp.dll",
-        "lib/Xamarin.Mac20/SkiaSharp.xml",
-        "lib/Xamarin.TVOS/SkiaSharp.dll",
-        "lib/Xamarin.TVOS/SkiaSharp.xml",
-        "lib/Xamarin.WatchOS/SkiaSharp.dll",
-        "lib/Xamarin.WatchOS/SkiaSharp.xml",
-        "lib/Xamarin.iOS/SkiaSharp.dll",
-        "lib/Xamarin.iOS/SkiaSharp.xml",
-        "lib/net45/SkiaSharp.dll",
-        "lib/net45/SkiaSharp.xml",
-        "lib/netstandard1.3/SkiaSharp.dll",
-        "lib/netstandard1.3/SkiaSharp.xml",
-        "lib/tizen40/SkiaSharp.dll",
-        "lib/tizen40/SkiaSharp.xml",
-        "lib/uap10.0/SkiaSharp.dll",
-        "lib/uap10.0/SkiaSharp.xml",
-        "runtimes/osx/native/libSkiaSharp.dylib",
-        "runtimes/tizen-armel/native/libSkiaSharp.so",
-        "runtimes/tizen-x86/native/libSkiaSharp.so",
-        "runtimes/win-x64/native/libSkiaSharp.dll",
-        "runtimes/win-x86/native/libSkiaSharp.dll",
-        "runtimes/win10-arm/nativeassets/uap10.0/libEGL.dll",
-        "runtimes/win10-arm/nativeassets/uap10.0/libGLESv2.dll",
-        "runtimes/win10-arm/nativeassets/uap10.0/libSkiaSharp.dll",
-        "runtimes/win10-x64/nativeassets/uap10.0/libEGL.dll",
-        "runtimes/win10-x64/nativeassets/uap10.0/libGLESv2.dll",
-        "runtimes/win10-x64/nativeassets/uap10.0/libSkiaSharp.dll",
-        "runtimes/win10-x86/nativeassets/uap10.0/libEGL.dll",
-        "runtimes/win10-x86/nativeassets/uap10.0/libGLESv2.dll",
-        "runtimes/win10-x86/nativeassets/uap10.0/libSkiaSharp.dll",
-        "skiasharp.1.68.0.nupkg.sha512",
-        "skiasharp.nuspec",
-        "xamarin.interactive/SkiaSharp.Workbooks.dll"
+        "algorithmia.client.1.0.5.nupkg.sha512",
+        "algorithmia.client.nuspec",
+        "lib/netstandard2.0/Algorithmia.dll",
+        "lib/netstandard2.0/Algorithmia.xml"
+      ]
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
       ]
     },
     "sqlite-net-pcl/1.4.118": {
@@ -2254,24 +2239,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LuisCorrea\\.nuget\\packages\\": {},
+    "C:\\Users\\Bus209\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LuisCorrea\\Documents\\proyectos_net\\proyectos_c#\\Movil\\Contacts\\Contacts\\Contacts.Android\\Contacts.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Bus209\\Documents\\htdocs\\xamarinmovil\\Contacts\\Contacts.Android\\Contacts.Android.csproj",
       "projectName": "Contacts.Android",
-      "projectPath": "C:\\Users\\LuisCorrea\\Documents\\proyectos_net\\proyectos_c#\\Movil\\Contacts\\Contacts\\Contacts.Android\\Contacts.Android.csproj",
-      "packagesPath": "C:\\Users\\LuisCorrea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LuisCorrea\\Documents\\proyectos_net\\proyectos_c#\\Movil\\Contacts\\Contacts\\Contacts.Android\\obj\\",
+      "projectPath": "C:\\Users\\Bus209\\Documents\\htdocs\\xamarinmovil\\Contacts\\Contacts.Android\\Contacts.Android.csproj",
+      "packagesPath": "C:\\Users\\Bus209\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bus209\\Documents\\htdocs\\xamarinmovil\\Contacts\\Contacts.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\LuisCorrea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bus209\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2285,8 +2270,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\LuisCorrea\\Documents\\proyectos_net\\proyectos_c#\\Movil\\Contacts\\Contacts\\Contacts\\Contacts.csproj": {
-              "projectPath": "C:\\Users\\LuisCorrea\\Documents\\proyectos_net\\proyectos_c#\\Movil\\Contacts\\Contacts\\Contacts\\Contacts.csproj"
+            "C:\\Users\\Bus209\\Documents\\htdocs\\xamarinmovil\\Contacts\\Contacts\\Contacts.csproj": {
+              "projectPath": "C:\\Users\\Bus209\\Documents\\htdocs\\xamarinmovil\\Contacts\\Contacts\\Contacts.csproj"
             }
           }
         }

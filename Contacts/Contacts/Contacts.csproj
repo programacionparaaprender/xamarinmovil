@@ -10,13 +10,32 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Algorithmia.Client" Version="1.0.5" />
     <PackageReference Include="sqlite-net-pcl" Version="1.4.118" />
     <PackageReference Include="Xamarin.Forms" Version="4.1.0.555618" />
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="ContactsPage.xaml">
+    <Compile Update="frmListaContactos.xaml.cs">
+      <DependentUpon>frmListaContactos.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="frmPrincipal.xaml.cs">
+      <DependentUpon>frmPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="frmNuevoContacto.xaml.cs">
+      <DependentUpon>frmNuevoContacto.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="frmEditarContacto.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="frmListaContactos.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="frmPrincipal.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

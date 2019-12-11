@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LuisCorrea\\Documents\\proyectos_net\\proyectos_c#\\Movil\\Contacts\\Contacts\\Contacts.iOS\\Contacts.iOS.csproj": {}
+    "C:\\Users\\Bus209\\Documents\\htdocs\\xamarinmovil\\Contacts\\Contacts.iOS\\Contacts.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LuisCorrea\\Documents\\proyectos_net\\proyectos_c#\\Movil\\Contacts\\Contacts\\Contacts.iOS\\Contacts.iOS.csproj": {
+    "C:\\Users\\Bus209\\Documents\\htdocs\\xamarinmovil\\Contacts\\Contacts.iOS\\Contacts.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LuisCorrea\\Documents\\proyectos_net\\proyectos_c#\\Movil\\Contacts\\Contacts\\Contacts.iOS\\Contacts.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\Bus209\\Documents\\htdocs\\xamarinmovil\\Contacts\\Contacts.iOS\\Contacts.iOS.csproj",
         "projectName": "Contacts.iOS",
-        "projectPath": "C:\\Users\\LuisCorrea\\Documents\\proyectos_net\\proyectos_c#\\Movil\\Contacts\\Contacts\\Contacts.iOS\\Contacts.iOS.csproj",
-        "packagesPath": "C:\\Users\\LuisCorrea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LuisCorrea\\Documents\\proyectos_net\\proyectos_c#\\Movil\\Contacts\\Contacts\\Contacts.iOS\\obj\\",
+        "projectPath": "C:\\Users\\Bus209\\Documents\\htdocs\\xamarinmovil\\Contacts\\Contacts.iOS\\Contacts.iOS.csproj",
+        "packagesPath": "C:\\Users\\Bus209\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bus209\\Documents\\htdocs\\xamarinmovil\\Contacts\\Contacts.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\LuisCorrea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bus209\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\LuisCorrea\\Documents\\proyectos_net\\proyectos_c#\\Movil\\Contacts\\Contacts\\Contacts\\Contacts.csproj": {
-                "projectPath": "C:\\Users\\LuisCorrea\\Documents\\proyectos_net\\proyectos_c#\\Movil\\Contacts\\Contacts\\Contacts\\Contacts.csproj"
+              "C:\\Users\\Bus209\\Documents\\htdocs\\xamarinmovil\\Contacts\\Contacts\\Contacts.csproj": {
+                "projectPath": "C:\\Users\\Bus209\\Documents\\htdocs\\xamarinmovil\\Contacts\\Contacts\\Contacts.csproj"
               }
             }
           }
@@ -69,21 +69,20 @@
         }
       }
     },
-    "C:\\Users\\LuisCorrea\\Documents\\proyectos_net\\proyectos_c#\\Movil\\Contacts\\Contacts\\Contacts\\Contacts.csproj": {
+    "C:\\Users\\Bus209\\Documents\\htdocs\\xamarinmovil\\Contacts\\Contacts\\Contacts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LuisCorrea\\Documents\\proyectos_net\\proyectos_c#\\Movil\\Contacts\\Contacts\\Contacts\\Contacts.csproj",
+        "projectUniqueName": "C:\\Users\\Bus209\\Documents\\htdocs\\xamarinmovil\\Contacts\\Contacts\\Contacts.csproj",
         "projectName": "Contacts",
-        "projectPath": "C:\\Users\\LuisCorrea\\Documents\\proyectos_net\\proyectos_c#\\Movil\\Contacts\\Contacts\\Contacts\\Contacts.csproj",
-        "packagesPath": "C:\\Users\\LuisCorrea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LuisCorrea\\Documents\\proyectos_net\\proyectos_c#\\Movil\\Contacts\\Contacts\\Contacts\\obj\\",
+        "projectPath": "C:\\Users\\Bus209\\Documents\\htdocs\\xamarinmovil\\Contacts\\Contacts\\Contacts.csproj",
+        "packagesPath": "C:\\Users\\Bus209\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bus209\\Documents\\htdocs\\xamarinmovil\\Contacts\\Contacts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\LuisCorrea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bus209\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -108,15 +107,15 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Algorithmia.Client": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
-            },
-            "SkiaSharp": {
-              "target": "Package",
-              "version": "[1.68.0, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -132,10 +131,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

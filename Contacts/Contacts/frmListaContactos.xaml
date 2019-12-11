@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Contacts.Contacts">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <ListView x:Name="contactsListView" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <StackLayout>
+                                    <Label Text="{Binding Name}"
+                                       FontSize="13" TextColor="DarkOrange"
+                                       HorizontalOptions="FillAndExpand"/>
+
+                                    <Label Text="{Binding Email}"
+                                       FontSize="11" TextColor="Green"
+                                     HorizontalOptions="FillAndExpand"/>
+
+                                </StackLayout>
+                            </StackLayout>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackLayout>
+                <Button Text="Editar" FontSize="13" WidthRequest="20" TextColor="DarkOrange"
+                   HorizontalOptions="FillAndExpand" Clicked="ToolbarItem_Clicked_1" />
+            </StackLayout>
+            <StackLayout>
+                <Button  
+                    Text="Eliminar" FontSize="13" WidthRequest="20" TextColor="DarkOrange"
+                            HorizontalOptions="FillAndExpand" Clicked="EliminarContacto" />
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
