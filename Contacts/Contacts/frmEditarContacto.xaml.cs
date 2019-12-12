@@ -28,33 +28,17 @@ namespace Contacts
         }
         private void BtnSave_Clicked(object sender, EventArgs e)
         {
-            Contact contact = new Contact()
-            {
-                Name = nameEntry.Text,
-                Lastname = lastNameEntry.Text,
-                Email = eamilEntry.Text,
-                PhoneNumber = phoneEntry.Text,
-                Address = addressEntry.Text
-            };
+            contacto.Name = nameEntry.Text;
+            contacto.Lastname = lastNameEntry.Text;
+            contacto.Email = eamilEntry.Text;
+            contacto.PhoneNumber = phoneEntry.Text;
+            contacto.Address = addressEntry.Text;
+            
 
             using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
             {
                 conn.CreateTable<Contact>();
-                var contacts = conn.Table<Contact>().ToList();
-                foreach (Contact temp in contacts)
-                {
-                    if (temp.Email == contact.Email)
-                    {
-                        return;
-                    }
-                }
-
-            }
-
-            using (SQLiteConnection conn = new SQLiteConnection(App.FilePath))
-            {
-                conn.CreateTable<Contact>();
-                int rowsAdded = conn.Update(contact);
+                int rowsAdded = conn.Update(contacto);
             }
 
             Navigation.PushAsync(new ContactsPage());
