@@ -22,7 +22,7 @@ namespace Contacts
             MyMap.MoveToRegion(
                 MapSpan.FromCenterAndRadius(
                 new Position(19.242142, -90.237137),
-                Distance.FromKilometers(30)
+                Distance.FromKilometers(10)
                 ));
 
         }

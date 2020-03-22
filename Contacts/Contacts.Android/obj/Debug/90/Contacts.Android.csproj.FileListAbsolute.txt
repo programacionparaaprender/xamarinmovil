@@ -1075,3 +1075,4 @@ C:\Users\Bus209\Documents\htdocs\xamarinmovil\Contacts\Contacts.Android\obj\Debu
 C:\Users\Bus209\Documents\htdocs\xamarinmovil\Contacts\Contacts.Android\obj\Debug\90\android\src\com\google\android\gms\maps\R.java
 C:\Users\Bus209\Documents\htdocs\xamarinmovil\Contacts\Contacts.Android\obj\Debug\90\android\src\com\google\android\gms\base\R.java
 C:\Users\Bus209\Documents\htdocs\xamarinmovil\Contacts\Contacts.Android\obj\Debug\90\android\src\com\google\android\gms\R.java
+C:\Users\Bus209\Documents\htdocs\xamarinmovil\Contacts\Contacts.Android\obj\Debug\90\stamp\SetupDependenciesForDesigner.stamp

@@ -52,5 +52,7 @@ https://vicenteguzman.mx/2017/08/19/error-the-user7zippath-parameter-xamarin-for
 
 xamarin build download 0.10
 
+pendiente TK.CustomMap 
+
 
 
