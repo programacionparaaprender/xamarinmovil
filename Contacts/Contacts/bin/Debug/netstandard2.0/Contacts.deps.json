@@ -11,8 +11,10 @@
         "dependencies": {
           "Algorithmia.Client": "1.0.5",
           "NETStandard.Library": "2.0.3",
+          "Xamarin.Build.Download": "0.10.0",
           "Xamarin.Essentials": "1.1.0",
           "Xamarin.Forms": "4.1.0.555618",
+          "Xamarin.Forms.Maps": "3.6.0.709228",
           "sqlite-net-pcl": "1.4.118"
         },
         "runtime": {
@@ -91,6 +93,7 @@
           }
         }
       },
+      "Xamarin.Build.Download/0.10.0": {},
       "Xamarin.Essentials/1.1.0": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -115,6 +118,17 @@
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "4.1.0.267"
+          }
+        }
+      },
+      "Xamarin.Forms.Maps/3.6.0.709228": {
+        "dependencies": {
+          "Xamarin.Forms": "4.1.0.555618"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "3.6.0.38"
           }
         }
       }
@@ -182,6 +196,13 @@
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
     },
+    "Xamarin.Build.Download/0.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XiQNxx6Jox00O80sJRlZv6jXDZ/r3KC7SMwzQNQcD1gZ+vsZyJH3LcSpdJ5NiZhRrWZlTGNSbooHsOBF7lBOyQ==",
+      "path": "xamarin.build.download/0.10.0",
+      "hashPath": "xamarin.build.download.0.10.0.nupkg.sha512"
+    },
     "Xamarin.Essentials/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -195,6 +216,13 @@
       "sha512": "sha512-eZHy/yCrKhu3WUI1oszz8Hvq8iC+wQyokEVkzlSmNJD6xa2pGLq5UjOgpXEWu7zKPaoZ5c70SrTv1BBZE+Je1A==",
       "path": "xamarin.forms/4.1.0.555618",
       "hashPath": "xamarin.forms.4.1.0.555618.nupkg.sha512"
+    },
+    "Xamarin.Forms.Maps/3.6.0.709228": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IviS6gI7cvkehsgoeRPte7jc4Ls5XYHIm/AFwjGZe8dsP03lnkna4yXJ2EpZQHG3syIr7IjcD5rZFg+XQ+6DSA==",
+      "path": "xamarin.forms.maps/3.6.0.709228",
+      "hashPath": "xamarin.forms.maps.3.6.0.709228.nupkg.sha512"
     }
   }
 }

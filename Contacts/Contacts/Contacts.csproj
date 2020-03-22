@@ -12,8 +12,10 @@
   <ItemGroup>
     <PackageReference Include="Algorithmia.Client" Version="1.0.5" />
     <PackageReference Include="sqlite-net-pcl" Version="1.4.118" />
+    <PackageReference Include="Xamarin.Build.Download" Version="0.10.0" />
     <PackageReference Include="Xamarin.Forms" Version="4.1.0.555618" />
     <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
+    <PackageReference Include="Xamarin.Forms.Maps" Version="3.6.0.709228" />
   </ItemGroup>
 
   <ItemGroup>
