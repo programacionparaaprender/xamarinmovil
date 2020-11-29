@@ -46,6 +46,11 @@ namespace Contacts.Classes
             set;
         }
 
+        public override string ToString()
+        {
+            return Name + " " + Lastname;
+        }
+
         public Contact()
         {
 

@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="Contacts.Contacts">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical">
+        <StackLayout Orientation="Vertical"  Margin="10">
             <ListView x:Name="contactsListView" >
                 <ListView.ItemTemplate>
                     <DataTemplate>
@@ -16,7 +16,6 @@
                                     <Label Text="{Binding Name}"
                                        FontSize="13" TextColor="DarkOrange"
                                        HorizontalOptions="FillAndExpand"/>
-
                                     <Label Text="{Binding Email}"
                                        FontSize="11" TextColor="Green"
                                      HorizontalOptions="FillAndExpand"/>
@@ -28,14 +27,16 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <StackLayout>
-                <Button Text="Editar" FontSize="13" WidthRequest="20" TextColor="DarkOrange"
+            <StackLayout Margin="10" HeightRequest="200">
+                <StackLayout>
+                    <Button Text="Editar" BackgroundColor="Green" FontSize="13" HeightRequest="50" WidthRequest="10" TextColor="white"
                    HorizontalOptions="FillAndExpand" Clicked="ToolbarItem_Clicked_1" />
-            </StackLayout>
-            <StackLayout>
-                <Button  
-                    Text="Eliminar" FontSize="13" WidthRequest="20" TextColor="DarkOrange"
+                </StackLayout>
+                <StackLayout>
+                    <Button  
+                    Text="Eliminar" FontSize="13" BackgroundColor="red" HeightRequest="50" WidthRequest="10" TextColor="white"
                             HorizontalOptions="FillAndExpand" Clicked="EliminarContacto" />
+                </StackLayout>
             </StackLayout>
             
         </StackLayout>

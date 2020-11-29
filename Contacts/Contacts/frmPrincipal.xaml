@@ -11,13 +11,13 @@
                      />
         <ToolbarItem Text="Lista de contactos" Clicked="ToolbarItem_Clicked_1"
                      />
-        <ToolbarItem Text="Conectarme con google maps" 
-                     />
+        <!--<ToolbarItem Text="Conectarme con google maps" 
+                     />-->
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
             <Entry Text="Bienvenido" />
-            <Maps:Map WidthRequest="320" HeightRequest="200" x:Name="MyMap" MapType="Street" />
+            <!--<Maps:Map WidthRequest="320" HeightRequest="200" x:Name="MyMap" MapType="Street" />-->
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
