@@ -9,6 +9,8 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="New" Clicked="ToolbarItem_Clicked"
                      />
+        <ToolbarItem Text="Google maps" Clicked="ToolbarItem_GoogleMaps"
+                     />
         <ToolbarItem Text="Lista de contactos" Clicked="ToolbarItem_Clicked_1"
                      />
         <!--<ToolbarItem Text="Conectarme con google maps" 

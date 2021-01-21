@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Xamarin.Forms.Maps;
+
 
 
 namespace Contacts
@@ -35,6 +35,11 @@ namespace Contacts
         private void ToolbarItem_Clicked_1(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Contacts());
+        }
+
+        private void ToolbarItem_GoogleMaps(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new frmGoogleMaps());
         }
     }
 }

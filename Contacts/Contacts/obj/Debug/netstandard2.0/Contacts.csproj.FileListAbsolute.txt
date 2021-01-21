@@ -13,7 +13,6 @@ C:\Users\LuisCorrea\Documents\proyectos_net\proyectos_c#\Movil\Contacts\Contacts
 C:\Users\Bus209\Documents\htdocs\xamarinmovil\Contacts\Contacts\bin\Debug\netstandard2.0\Contacts.deps.json
 C:\Users\Bus209\Documents\htdocs\xamarinmovil\Contacts\Contacts\bin\Debug\netstandard2.0\Contacts.dll
 C:\Users\Bus209\Documents\htdocs\xamarinmovil\Contacts\Contacts\bin\Debug\netstandard2.0\Contacts.pdb
-C:\Users\Bus209\Documents\htdocs\xamarinmovil\Contacts\Contacts\obj\Debug\netstandard2.0\Contacts.csprojAssemblyReference.cache
 C:\Users\Bus209\Documents\htdocs\xamarinmovil\Contacts\Contacts\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Bus209\Documents\htdocs\xamarinmovil\Contacts\Contacts\obj\Debug\netstandard2.0\Contacts.AssemblyInfoInputs.cache
 C:\Users\Bus209\Documents\htdocs\xamarinmovil\Contacts\Contacts\obj\Debug\netstandard2.0\Contacts.AssemblyInfo.cs
@@ -23,4 +22,6 @@ C:\Users\Bus209\Documents\htdocs\xamarinmovil\Contacts\Contacts\obj\Debug\netsta
 C:\Users\Bus209\Documents\htdocs\xamarinmovil\Contacts\Contacts\obj\Debug\netstandard2.0\frmListaContactos.xaml.g.cs
 C:\Users\Bus209\Documents\htdocs\xamarinmovil\Contacts\Contacts\obj\Debug\netstandard2.0\frmNuevoContacto.xaml.g.cs
 C:\Users\Bus209\Documents\htdocs\xamarinmovil\Contacts\Contacts\obj\Debug\netstandard2.0\frmPrincipal.xaml.g.cs
+C:\Users\Bus209\Documents\htdocs\xamarinmovil\Contacts\Contacts\obj\Debug\netstandard2.0\frmGoogleMaps.xaml.g.cs
 C:\Users\Bus209\Documents\htdocs\xamarinmovil\Contacts\Contacts\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Bus209\Documents\htdocs\xamarinmovil\Contacts\Contacts\obj\Debug\netstandard2.0\Contacts.csprojAssemblyReference.cache

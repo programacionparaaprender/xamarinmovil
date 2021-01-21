@@ -26,6 +26,7 @@ namespace Contacts.iOS
         {
             global::Xamarin.Forms.Forms.Init();
 
+            //Xamarin.FormsMaps.Init("AIzaSyDZktO_JnnvrY4BnD2IyZo8PqNXiDTWP1w");
             string fileName = "contacts_db.db3";
             string folderPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "..", "Library");
             string completePath = Path.Combine(folderPath, fileName);

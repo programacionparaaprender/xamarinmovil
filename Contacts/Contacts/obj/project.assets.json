@@ -132,16 +132,16 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/3.6.0.709228": {
+      "Xamarin.Forms.GoogleMaps/3.0.6": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.6.0.709228"
+          "Xamarin.Forms": "3.0.0.482510"
         },
         "compile": {
-          "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {}
+          "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {}
+          "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll": {}
         }
       }
     }
@@ -782,37 +782,24 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.Forms.Maps/3.6.0.709228": {
-      "sha512": "IviS6gI7cvkehsgoeRPte7jc4Ls5XYHIm/AFwjGZe8dsP03lnkna4yXJ2EpZQHG3syIr7IjcD5rZFg+XQ+6DSA==",
+    "Xamarin.Forms.GoogleMaps/3.0.6": {
+      "sha512": "kdiWxdm8g2tx6kBCbQpelHZib9rwXwSHR2h7Ff4kNRAk3/1EH6m3ZGyZrsTwQWOU8OutB6BV+LB9EEHK8sj0Qg==",
       "type": "package",
-      "path": "xamarin.forms.maps/3.6.0.709228",
+      "path": "xamarin.forms.googlemaps/3.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/MonoAndroid81/Xamarin.Forms.Maps.Android.dll",
-        "lib/MonoAndroid81/Xamarin.Forms.Maps.dll",
-        "lib/MonoAndroid81/Xamarin.Forms.Maps.xml",
-        "lib/MonoAndroid90/Xamarin.Forms.Maps.Android.dll",
-        "lib/MonoAndroid90/Xamarin.Forms.Maps.dll",
-        "lib/MonoAndroid90/Xamarin.Forms.Maps.xml",
-        "lib/Xamarin.Mac/Xamarin.Forms.Maps.dll",
-        "lib/Xamarin.Mac/Xamarin.Forms.Maps.macOS.dll",
-        "lib/Xamarin.Mac/Xamarin.Forms.Maps.xml",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
-        "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
-        "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
-        "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
-        "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
-        "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
-        "lib/tizen40/Xamarin.Forms.Maps.dll",
-        "lib/tizen40/Xamarin.Forms.Maps.xml",
-        "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll",
-        "lib/uap10.0/Xamarin.Forms.Maps.UWP.pri",
-        "lib/uap10.0/Xamarin.Forms.Maps.dll",
-        "xamarin.forms.maps.3.6.0.709228.nupkg.sha512",
-        "xamarin.forms.maps.nuspec"
+        "LICENSE.txt",
+        "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.Android.dll",
+        "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.dll",
+        "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll",
+        "lib/UAP10/Xamarin.Forms.GoogleMaps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll",
+        "lib/netstandard1.0/Xamarin.Forms.GoogleMaps.dll",
+        "lib/netstandard2.0/Xamarin.Forms.GoogleMaps.dll",
+        "xamarin.forms.googlemaps.3.0.6.nupkg.sha512",
+        "xamarin.forms.googlemaps.nuspec"
       ]
     }
   },
@@ -823,7 +810,7 @@
       "Xamarin.Build.Download >= 0.10.0",
       "Xamarin.Essentials >= 1.1.0",
       "Xamarin.Forms >= 4.1.0.555618",
-      "Xamarin.Forms.Maps >= 3.6.0.709228",
+      "Xamarin.Forms.GoogleMaps >= 3.0.6",
       "sqlite-net-pcl >= 1.4.118"
     ]
   },
@@ -893,9 +880,9 @@
             "target": "Package",
             "version": "[4.1.0.555618, )"
           },
-          "Xamarin.Forms.Maps": {
+          "Xamarin.Forms.GoogleMaps": {
             "target": "Package",
-            "version": "[3.6.0.709228, )"
+            "version": "[3.0.6, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",

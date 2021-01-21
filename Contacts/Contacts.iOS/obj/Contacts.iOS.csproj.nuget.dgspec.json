@@ -54,9 +54,9 @@
               "target": "Package",
               "version": "[4.1.0.555618, )"
             },
-            "Xamarin.Forms.Maps": {
+            "Xamarin.Forms.GoogleMaps": {
               "target": "Package",
-              "version": "[3.6.0.709228, )"
+              "version": "[3.0.6, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",
@@ -138,9 +138,9 @@
               "target": "Package",
               "version": "[4.1.0.555618, )"
             },
-            "Xamarin.Forms.Maps": {
+            "Xamarin.Forms.GoogleMaps": {
               "target": "Package",
-              "version": "[3.6.0.709228, )"
+              "version": "[3.0.6, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",
