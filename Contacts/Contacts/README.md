@@ -58,5 +58,8 @@ pendiente TK.CustomMap
 ### ejemplo de google maps para xamarin
 https://xamarinlatino.com/google-maps-f%C3%A1cil-en-xamarin-forms-7b84d474b3f1
 
+### ejemplo de geocerca teoria
+https://developers.google.com/location-context/geofencing/
+
 
 
